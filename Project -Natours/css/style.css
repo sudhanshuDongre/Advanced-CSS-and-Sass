@@ -71,6 +71,7 @@ body {
   font-weight: 700;
   background-image: linear-gradient(to right, #55c57a, #28b485);
   display: inline-block;
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   transition: all 0.2s;
@@ -205,6 +206,7 @@ body {
     margin-bottom: 0.5rem;
     background-image: linear-gradient(to right, #55c57a, #28b485);
     display: inline-block;
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent; }
   .feature-box:hover {
