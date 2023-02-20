@@ -6,7 +6,7 @@
   height: 52rem;
 
   &__side {
-    font-size: 2rem;
+    //font-size: 2rem;
     height: 52rem;
     transition: all 0.8s ease;
     position: absolute;
@@ -135,6 +135,7 @@
   }
 
   &__details {
+padding:3rem;
     ul {
       list-style: none;
       width: 80%;
@@ -161,6 +162,7 @@
   }
 
   &__price-box {
+ text-align: center;
     color: $color-white;
     margin-bottom: 8rem;
   }
@@ -212,7 +214,7 @@
     }
 
     &__price-box {
-      margin-bottom: 8rem;
+      margin-bottom: 3rem;
     }
 
     &__price-value {

@@ -631,10 +631,12 @@ body {
   border-radius: 10rem;
   transition: all 0.2s;
   font-size: 1.6rem;
-  position: relative; }
+  position: relative;
+  border: none;
+  cursor: pointer; }
 
 .btn:hover {
-  transform: translateY(-0.3rem);
+  transform: translateY(-0.3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
   .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
@@ -885,6 +887,7 @@ body {
       margin: 1.5rem; }
   .footer__link:link, .footer__link:visited {
     color: #f7f7f7;
+    background-color: #333;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -910,7 +913,6 @@ body {
   position: relative;
   height: 52rem; }
   .card__side {
-    font-size: 2rem;
     height: 52rem;
     transition: all 0.8s ease;
     position: absolute;
@@ -969,16 +971,18 @@ body {
       background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.85), rgba(40, 180, 133, 0.85)); }
     .card__heading-span-3 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 71, 250, 0.85)); }
-  .card__details ul {
-    list-style: none;
-    width: 80%;
-    margin: 0 auto; }
-    .card__details ul li {
-      text-align: center;
-      font-size: 1.5rem;
-      padding: 1rem; }
-      .card__details ul li:not(:last-child) {
-        border-bottom: 1px solid #eee; }
+  .card__details {
+    padding: 3rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -987,6 +991,7 @@ body {
     text-align: center;
     width: 90%; }
   .card__price-box {
+    text-align: center;
     color: #fff;
     margin-bottom: 8rem; }
   .card__price-only {
@@ -1020,7 +1025,7 @@ body {
         width: 100%;
         padding: 7rem 4rem 4rem 4rem; }
       .card__price-box {
-        margin-bottom: 8rem; }
+        margin-bottom: 3rem; }
       .card__price-value {
         font-size: 4rem; } }
 

@@ -9,10 +9,13 @@
     transition: all 0.2s;
     font-size: $default-font-size;
     position: relative;
+
+border:none;
+cursor:pointer;
   }
 
   &:hover {
-    transform: translateY(-0.3rem);
+    transform: translateY(-0.3px);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
 
     &::after {
